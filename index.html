@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- 🌟 Navbar -->
+  <header class="bg-blue-600 text-white sticky top-0">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">MyShop</h1>
+      <nav class="hidden md:flex gap-6">
+        <a href="#" class="hover:text-yellow-300">Home</a>
+        <a href="#" class="hover:text-yellow-300">Products</a>
+        <a href="#" class="hover:text-yellow-300">Reviews</a>
+        <a href="#" class="hover:text-yellow-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🌄 Hero Section -->
+  <section class="bg-blue-500 text-white text-center py-16 px-4">
+    <h2 class="text-4xl font-bold mb-4">Welcome to MyShop</h2>
+    <p class="mb-6">Best products at the best prices.</p>
+    <a href="#" class="bg-yellow-400 text-black px-5 py-2 rounded-full hover:bg-yellow-300">Shop Now</a>
+  </section>
+
+  <!-- 🛍️ Products Section -->
+  <section class="max-w-6xl mx-auto py-12 px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Our Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <!-- Product Card -->
+      <div class="bg-white p-4 rounded-lg shadow hover:scale-105 transition">
+        <img src="https://via.placeholder.com/300" alt="Product" class="rounded mb-4">
+        <h3 class="text-lg font-bold">Product 1</h3>
+        <p class="text-sm mb-2">High quality and affordable.</p>
+        <p class="font-bold mb-2">$29.99</p>
+        <button class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow hover:scale-105 transition">
+        <img src="https://via.placeholder.com/300" alt="Product" class="rounded mb-4">
+        <h3 class="text-lg font-bold">Product 2</h3>
+        <p class="text-sm mb-2">Best in quality.</p>
+        <p class="font-bold mb-2">$39.99</p>
+        <button class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow hover:scale-105 transition">
+        <img src="https://via.placeholder.com/300" alt="Product" class="rounded mb-4">
+        <h3 class="text-lg font-bold">Product 3</h3>
+        <p class="text-sm mb-2">Customer favorite item.</p>
+        <p class="font-bold mb-2">$49.99</p>
+        <button class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💬 Customer Reviews -->
+  <section class="bg-gray-200 py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Customer Reviews</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 px-4">
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="https://via.placeholder.com/80" class="rounded-full mx-auto mb-4" alt="">
+        <h4 class="font-bold">Riya Das</h4>
+        <p class="text-yellow-500">⭐⭐⭐⭐⭐</p>
+        <p>"Excellent quality! Totally worth it."</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="https://via.placeholder.com/80" class="rounded-full mx-auto mb-4" alt="">
+        <h4 class="font-bold">Arjun Roy</h4>
+        <p class="text-yellow-500">⭐⭐⭐⭐</p>
+        <p>"Fast delivery and good packaging."</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow text-center">
+        <img src="https://via.placeholder.com/80" class="rounded-full mx-auto mb-4" alt="">
+        <h4 class="font-bold">Mina Paul</h4>
+        <p class="text-yellow-500">⭐⭐⭐⭐⭐</p>
+        <p>"Highly recommend this shop!"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📩 Contact Section -->
+  <section class="max-w-4xl mx-auto py-12 px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <p class="mb-4"><strong>Address:</strong> 123 Main Street, Dhaka</p>
+      <p class="mb-4"><strong>Email:</strong> info@myshop.com</p>
+      <p class="mb-6"><strong>Phone:</strong> +880 1234-567890</p>
+      <form class="grid gap-4">
+        <input type="text" placeholder="Name" class="border p-2 rounded">
+        <input type="email" placeholder="Email" class="border p-2 rounded">
+        <textarea placeholder="Message" class="border p-2 rounded"></textarea>
+        <button class="bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ✨ Call to Action -->
+  <section class="bg-yellow-300 text-center py-10">
+    <h2 class="text-3xl font-bold mb-3">Join Our Community</h2>
+    <p class="mb-4">Subscribe to get special offers and updates.</p>
+    <a href="#" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700">Subscribe Now</a>
+  </section>
+
+  <!-- ⚙️ Footer -->
+  <footer class="bg-blue-600 text-white py-6 text-center">
+    <p>© 2025 MyShop | All Rights Reserved</p>
+    <div class="mt-2">
+      <a href="#" class="px-2 hover:text-yellow-300">Home</a> |
+      <a href="#" class="px-2 hover:text-yellow-300">About</a> |
+      <a href="#" class="px-2 hover:text-yellow-300">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
